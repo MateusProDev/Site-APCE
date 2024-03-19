@@ -20,8 +20,7 @@ const Contact = () =>
   Contact
 </div>;
 
-
-// Componente principal da aplicação
+//Componente principal da aplicação
 const App = () => {
   return (
     <Router>
