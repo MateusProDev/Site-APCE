@@ -3,17 +3,17 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import components
 import NavBar from './components/NavBar';
-import AboutMe from './pages/AboutMe';
+import HomeMe from './pages/AboutMe';
 import './App.css'
 
 // Componentes para diferentes rotas
 const Home = () => 
 <div>
-  Home
+<HomeMe />
 </div>;
 const About = () => 
 <div>
-  <AboutMe />
+  About
 </div>;
 const Contact = () => 
 <div>

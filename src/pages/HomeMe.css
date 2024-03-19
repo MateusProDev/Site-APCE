@@ -1,46 +1,46 @@
-#about{
+#Home{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 88vh;
 }
-#containerAbout{
+#containerHome{
     width: 50%;
     margin: auto;
 }
-#containerAbout h1, p{
+#containerHome h1, p{
     color: #ddd;
 }
-#containerAbout h1{
+#containerHome h1{
     font-size: 46px;
     margin-bottom: -10px;
 }
-#containerAbout p{
+#containerHome p{
     font-size: 20px;
     margin-bottom: 20px;
 }
-#containerAbout button{
+#containerHome button{
     padding: 10px 10px;
     background-color: #FF8A00;
     border: none;
     border-radius: 5px;
     font-size: 16px;
 }
-#containerAbout button:hover{
+#containerHome button:hover{
     transform: scale(1.03);
 }
 
 @media (max-width: 768px) {
-    #containerAbout{
+    #containerHome{
         width: 100%;
         margin: auto;
         padding: 0 20px;
     }
-    #containerAbout h1{
+    #containerHome h1{
         font-size: 26px;
         margin-bottom: -10px;
     }
-    #containerAbout p{
+    #containerHome p{
         font-size: 16px;
         margin-bottom: 20px;
     }
