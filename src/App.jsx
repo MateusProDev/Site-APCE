@@ -9,7 +9,7 @@ import './App.css'
 // Componentes para diferentes rotas
 const Home = () => 
 <div>
-<HomeMe />
+  <HomeMe />
 </div>;
 const About = () => 
 <div>
